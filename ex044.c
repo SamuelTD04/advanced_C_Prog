@@ -7,7 +7,7 @@ int main() {
     // the default type of a const is int, if you do not infer the type
     const age = 35; // const int age = 35;
 
-    // a pointer to a constant. 'int' constant that we're pointing to can't be changed
+    // a pointer to an int constant. 'int' constant that we're pointing to can't be changed
     const int *ptr;
     // constant pointer to the 'int' variable. You can change the value of pointed variable
     int *const ptr1;
