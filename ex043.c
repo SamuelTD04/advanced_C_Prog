@@ -12,7 +12,7 @@ enum test {
 
 int main() {
     enum months month;
-    int salaries[13] = {0, 10, 20, 30, 25, 50, 35, 25, 20, 60, 25, 35, 40}; // 0 at beg otherwise out of bounds later
+    int salaries[13] = {0, 10, 20, 30, 25, 50, 35, 25, 20, 60, 25, 35, 40}; // 0 at beginning otherwise out of bounds later
     for(month = JAN; month <= DEC; month++) {
         printf("%2d%10d\n", month, salaries[month]);
     }
